@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<style>
+
+*{
+    margin: 0;
+}
+
+body{
+   
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+    nav{
+        display: flex;
+        padding: 14px 14px;
+       background-color: rgb(10, 10, 10);
+    }
+
+    li{
+        display: inline;
+        margin-left: 50px;
+    }
+
+   
+
+
+    a{
+        text-decoration: none;
+        color: white;
+        transition: 0.7s;
+        padding: 15px 15px;
+
+    }
+
+    a:hover{
+        background-color: rgb(243, 17, 205);
+
+    }
+
+
+    .logo{
+color: rgb(255, 0, 170);
+margin-left: -15px;
+font-weight: bold;
+
+    }
+
+    span{
+        padding: 13px 13px;
+        background-color: aliceblue;
+        width: 100px;
+        border: 2px solid transparent;
+    }
+
+.ani{
+    height: 700px;
+    background-image: url(3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.ani{
+   animation-name: animate;
+   animation-delay: 2s;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+
+}
+
+@keyframes animate{
+
+    from{
+
+        background-image: url(3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+to{
+
+
+    
+    background-image: url(4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+}   
+
+
+
+</style>
+
+   <nav>
+<div class="logo"> <span>LOGO</span>  </div>
+<div class="menu">
+    <ul>
+        <li> <a href=""> Home</a></li>
+        <li> <a href="">About</a> </li>
+        <li> <a href="">Contact</a></li>
+        <li> <a href="">Gallery</a></li>
+       
+    </ul>
+</div>
+
+   </nav>
+   
+<div class="ani">
+
+
+
+</div>
+
+
+
+</body>
+</html>
